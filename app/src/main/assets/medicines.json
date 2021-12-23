@@ -1,0 +1,16 @@
+{
+	"medicines": [
+		{
+			"id": 1,
+			"title": "medicine 1",
+			"price": 100.0,
+			"leftover": 1000
+		},
+		{
+			"id": 2,
+			"title": "medicine 2",
+			"price": 100.0,
+			"leftover": 1000
+		}
+	]
+}

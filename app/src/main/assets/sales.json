@@ -1,0 +1,12 @@
+{
+	"sales": [
+		{
+			"med_id": 1,
+			"amount": 10
+		},
+		{
+			"med_id": 1,
+			"amount": 15
+		}
+	]
+}
