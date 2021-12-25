@@ -29,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
                 OpenAddMedicinePage();
             }
         });
+
+        vis_button_ = findViewById(R.id.goto_vis);
+        vis_button_.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                OpenVisPage();
+            }
+        });
     }
     private void OpenSalesPage() {
         Intent intent = new Intent(this, SaleActivity.class);
@@ -38,7 +46,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AddMedicineActivity.class);
         startActivity(intent);
     }
+    private void OpenVisPage() {
+        Intent intent = new Intent(this, VisActivity.class);
+        startActivity(intent);
+    }
 
     private Button sales_button_;
     private Button add_medicine_button_;
+    private Button vis_button_;
 }

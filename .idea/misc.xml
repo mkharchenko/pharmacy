@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Michael/StudioProjects/pharmacy/app/src/main/res/layout/activity_add_medicine.xml" value="0.10052083333333334" />
+        <entry key="..\:/Users/Michael/StudioProjects/pharmacy/app/src/main/res/layout/activity_main.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/Michael/StudioProjects/pharmacy/app/src/main/res/layout/activity_sale.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Michael/StudioProjects/pharmacy/app/src/main/res/layout/activity_vis.xml" value="0.12314814814814815" />
         <entry key="..\:/Users/kharc/AndroidStudioProjects/Pharmacy/app/src/main/res/layout/activity_add_medicine.xml" value="0.1598731884057971" />
         <entry key="..\:/Users/kharc/AndroidStudioProjects/Pharmacy/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/kharc/AndroidStudioProjects/Pharmacy/app/src/main/res/layout/activity_sale.xml" value="0.264" />

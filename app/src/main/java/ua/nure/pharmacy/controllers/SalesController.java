@@ -23,7 +23,8 @@ public class SalesController {
         if (amount <= med.GetLeftover()) {
             med.ChangeLeftover(amount * -1);
             json_manipulator_.WriteMedicinesToJsonFile("medicines.json", medicines_left_);
-            json_manipulator_.WriteSaleToJsonFile("sales.json", med.GetMedicine().GetId(), amount, Calendar.getInstance().getTimeInMillis());
+            json_manipulator_.WriteSaleToJsonFile("sales.json", med.GetMedicine().GetId(),
+                    amount, Calendar.getInstance().getTimeInMillis());
         }
     }
 

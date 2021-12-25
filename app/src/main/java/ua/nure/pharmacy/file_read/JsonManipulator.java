@@ -88,7 +88,7 @@ public class JsonManipulator {
         }
     }
 
-    private JSONArray ReadSalesJsonArray(String file_name) {
+    public JSONArray ReadSalesJsonArray(String file_name) {
         try {
             JSONObject obj = new JSONObject(ReadJsonStringFromFile(file_name));
             JSONArray medicines_array = obj.getJSONArray("sales");
