@@ -37,7 +37,7 @@ public class VisActivity extends AppCompatActivity {
         JsonManipulator json_reader = new JsonManipulator(this);
         JSONArray sales = json_reader.ReadSalesJsonArray("sales.json");
         Map<Long, Integer> date_counts = new HashMap<Long, Integer>();
-        String pattern = "MM/dd/yyyy";
+        String pattern = "dd/MM";
         DateFormat df = new SimpleDateFormat(pattern);
 
         for(int i = 0; i<sales.length();i++){
@@ -57,9 +57,9 @@ public class VisActivity extends AppCompatActivity {
 
         }
         //test
-        for (int i=0;i<100;i++){
+        /*for (int i=0;i<100;i++){
             date_counts.put((long)1640561437+i*100000,new Random().nextInt(10));
-        }
+        }*/
         TreeMap<Long,Integer> sorted_data = new TreeMap<Long,Integer>(date_counts);
 
         GraphView graphview = (GraphView) findViewById(R.id.view);
